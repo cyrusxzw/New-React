@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+
+
+.top-bar{
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    border-top: 8px solid #000;
+    width: 100%;
+    background-color: white;
+}
+
+.fa-search{
+    position: absolute;
+    top:40px;
+    right:10%;
+}
+
+.fa-star{
+    position: absolute;
+    right:7%;
+    top:40px;
+}
+
+.top-bar h1{
+    letter-spacing: 4px;
+    display: inline-block;
+    font-family: "lato";
+    font-size: 38px;
+}
+
+.section-1{
+    background: url(https://www.chanel.com/images/f_auto,q_auto/FSH-1530654576359-18khchpmodedesktop.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.section-2{
+    background: url(https://www.chanel.com/images/f_auto,q_auto/FSH-1523870282949-18shc28801620paysage20px.jpg);
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 750px;
+}
+
+.content{
+    text-align: center;
+    padding-top:40%;
+    padding-bottom: 5%;
+}
+
+.content span{
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px rgba(59,59,59,.4), 0.5px 0.5px 0 rgba(59,59,59,.6);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: abchanel-corpo,abchanel-pb-m,Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.content h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: abchanel-corpo,abchanel-pb-m,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing:4px;
+    margin: 10px;
+    text-shadow: 1px 1px 1px rgba(59,59,59,.4), 0.5px 0.5px 0 rgba(59,59,59,.6);
+}
+
+.content button{
+    border-radius: 0;
+    border-color: white;
+    height: 40px;
+    margin-top:10px;
+}
+
+.content button span{
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-shadow: none;
+    color:#000;
+    font-family: abchanel-corpo,abchanel-pb-m,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    line-height:38px;
+}
+
+
+.footer{
+    background-color: #000;
+    height:750px;
+    width:100%;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+.footer h1{
+    letter-spacing: 4px;
+    font-family: "lato";
+    font-size: 35px;
+    color: white;
+    margin-top:250px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.footer-menu{
+    margin:0 80px;
+    border-bottom: 1px solid #777;
+    padding-bottom: 20px;
+}
+.footer-menu .col{
+    width:24.5%;
+    display: inline-block;
+    text-align: left;
+}
+ul{
+    padding-left: 0
+}
+.footer-menu li{
+    color: #9b9b9b;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    font-size:14px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    list-style-type:none;
+}
+
+.footer-menu li span{
+    color: white;
+    text-transform: uppercase;
+    font-family: abchanel-corpo,abchanel-pb-m,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.footer-menu ul>li:nth-child(2){
+    margin-top: 15px;
+}
